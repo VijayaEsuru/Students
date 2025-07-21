@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vijju</title>
+        <style>
+            .container{
+                text-align: center;
+                padding:20px;
+                margin:20px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1><center><b>Student Manager</b></center></h1>
+        <form>
+        <div class="container">
+        <div class="name">
+        <input type="text" id="nameInput" placeholder="Name"/><br>
+        </div>
+        <div class="name">
+        <input type="number" id="ageInput" placeholder="Age"/><br>
+        </div>
+        <div class="name">
+        <input type="text" id="courseInput" placeholder="Course"/><br>
+        </div>
+        <div class="name">
+        <button onclick="addStudent(event)">Add Student</button>
+        </div>
+        <div id="studentList"></div>
+        </div>
+        <script src="group.jss.js"></script>
+        </form>
+    </body>
+</html>
